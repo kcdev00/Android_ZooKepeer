@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/instructions_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz jedną lub więcej opcji:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 1" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 2" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 3" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 4" />
+
+    <Button
+        android:id="@+id/vote_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Głosuj" />
+
+</LinearLayout>
