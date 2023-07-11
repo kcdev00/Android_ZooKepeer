@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZooApp</string>
+    <string name="animal_details">Szczegóły zwierzęcia</string>
+    <string name="hunger">Głód</string>
+    <string name="cleanliness">Czystość</string>
+    <string name="happiness">Zadowolenie</string>
+    <string name="save">Zapisz</string>
+</resources>
